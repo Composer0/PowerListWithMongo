@@ -12,7 +12,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb://mongo:efZ7OS302HaXUD7vP1Oj@containers-us-west-35.railway.app:8069", {useNewUrlParser: true});
+mongoose.connect("mongodb+srv://Composer0:S0ng-B1rds@cluster0.wnuukyz.mongodb.net/todolistDB", {useNewUrlParser: true});
 // useNewUrlParser is to avoid deprecation warning.
 
 const itemsSchema = {
