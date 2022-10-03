@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "next build": "build"
+    "next build": "build",
+    "mongo": "mongodb://mongo:efZ7OS302HaXUD7vP1Oj@containers-us-west-35.railway.app:8069"
   },
   "author": "",
   "license": "ISC",
